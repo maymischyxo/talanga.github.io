@@ -1,0 +1,111 @@
+body {
+    background-color: lightgreen;
+    margin: 0%;
+}
+hr{
+    background-color: grey;
+    height: 10px;
+    margin: 0;
+}
+header {
+    height: 100px;
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.titre{
+    width: 90%;
+    margin-left: 50px;
+}
+.logo{
+    width: 10%;
+}
+#logo{
+    height: 50px;
+}
+nav{
+    height: 30px;
+    display: flex;
+}
+li{
+    list-style: none;
+    width: 20%;
+    border-radius: 10px;
+}
+input{
+    width: 100%;
+    height: 100%;
+    background-color: lightgreen;
+    cursor: pointer;
+}
+#accueil:hover{
+    background: blue;
+    color: white;
+}#debuter:hover{
+    background: blue;
+    color: white;
+}#photos:hover{
+    background: blue;
+    color: white;
+}#materiel:hover{
+    background: blue;
+    color: white;
+}#forum:hover{
+    background: blue;
+    color: white;
+}
+h2 {
+    text-align: center;
+}
+.corp {
+    display: flex;
+    padding: 0px 5px 5px 5px;
+}
+.bienvenue, .ndeke {
+    background-color: lime;
+    min-height: 400px;
+    padding: 5px;
+    margin: 2px;
+}
+.images{
+    padding-left: 10px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
+    grid-template-rows: 1fr, 1fr;
+    grid-template-areas: 
+    "a b"
+    "c d";
+}
+
+#i1{
+    grid-area: a;
+    padding: 10px;
+}#i2{
+    grid-area: b;
+    padding: 10px;
+}#i3{
+    grid-area: c;
+    padding: 10px;
+}#i4{
+    grid-area: d;
+    padding: 10px;
+}
+
+img{
+    height: 40px;  
+}
+footer {
+    background-color: lightgreen;
+    margin: 0%;
+    padding-left: 5px;
+}
+
+/* les effets */
+.ef_header{
+    border-radius: 10px;
+    border: solid teal;
+    background-color: rgb(35, 211, 211);
+}
